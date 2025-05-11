@@ -10,7 +10,7 @@ export function connectWebSocket(token: string, callback: (message: string) => v
   }
 
   try {
-    const wsBaseUrl = "wss://rag-backend-production-f8ae.up.railway.app"
+    const wsBaseUrl = process.env.NEXT_PUBLIC_V1_WEBSOCKET_ENDPOINT
     const url = `${wsBaseUrl}/chat/ws?token=${encodeURIComponent(token)}`
     console.log(`Attempting WebSocket connection to ${url}`);
     ws = new WebSocket(url);
