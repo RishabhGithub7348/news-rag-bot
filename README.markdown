@@ -4,7 +4,12 @@ The News Chatbot Application is a full-stack solution for real-time news-based c
 
 ### Watch the News Chatbot Application Documentary Video
 
-[![chatbot](https://github.com/user-attachments/assets/be7a9609-b524-41dc-b597-703a2de063c6)](https://www.youtube.com/watch?v=XU2K9PIML48)
+[![chatbot](https://github.com/user-attachments/assets/f840432c-e3ed-4ca6-9c91-75c944086e8d
+)](https://www.youtube.com/watch?v=XU2K9PIML48)
+
+
+### The News Bot is deployed on Railway.app :  [News Rag Bot](https://rag-frontend-production.up.railway.app/)
+
 
 ## Frontend Overview
 
