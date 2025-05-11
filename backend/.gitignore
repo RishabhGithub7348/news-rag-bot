@@ -1,0 +1,62 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables and secrets
+.env
+.env.local
+*.env
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.cover
+.tox/
+
+# Type checking and linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Logs
+*.log
+log.txt
+
+# Database files
+*.sqlite3
+test.db
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# FastAPI-specific
+/docs_build/
+/site_build/
+
+# Miscellaneous
+.DS_Store
+*.swp
+*~
+Pipfile.lock
